@@ -1,0 +1,16 @@
+/*void-error06 */
+/*wrong return statement for function with return type void
+  and it can never be reached */
+
+int main()
+{
+  test();
+  return 0;
+}
+
+void test()
+{
+  if(0)
+    return 2;
+}
+

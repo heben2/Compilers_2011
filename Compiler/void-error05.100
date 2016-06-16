@@ -1,0 +1,5 @@
+/* void-error05 */
+/* Check if main can be void */
+
+void main()
+	return;

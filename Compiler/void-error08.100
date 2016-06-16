@@ -1,0 +1,12 @@
+/*void-error08*/
+/*Char pointer to address of int*/
+
+int main()
+{
+  int x;
+  char *q;
+  x = 5;
+  q = &x;
+  return 0;
+}
+

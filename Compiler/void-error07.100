@@ -1,0 +1,9 @@
+/*void-error07*/
+/*main without return statement */
+
+int main()
+{
+  int x;
+  x = 5;
+}
+

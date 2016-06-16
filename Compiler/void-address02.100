@@ -1,0 +1,23 @@
+/*void-address02.100 */
+/*Makes multiple &-operations of char variables and changes via pointers*/
+
+int main()
+{
+  char x,z,k,*p,*q,*t;
+  x = 'a';
+  z = 'b';
+  k = 'c';
+  p = &x;
+  q = &z;
+  t = &k;
+  putstring(p);
+  putstring(q);
+  putstring(t);
+  p* = 'd';
+  q* = 'e';
+  t* = 'f';
+  putstring(&x);
+  putstring(&z);
+  putstring(&k);
+  return 0;
+}

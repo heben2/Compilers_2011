@@ -1,0 +1,26 @@
+/*void-address01.100 */
+/*Makes multiple &-operations and adds via pointers*/
+
+int main()
+{
+  int x,z,k,*p,*q,*t;
+  x = getint();
+  z = 3;
+  k = 10;
+  putint(x); /*7*/
+  putint(z); /*3*/
+  putint(k); /*10*/
+  p = &x;
+  q = &z;
+  t = &k;
+  putint(x); /*7*/
+  putint(z); /*3*/
+  putint(k); /*10*/
+  p* = 13;
+  q* = 14;
+  t* = 15;
+  putint(x); /*13*/
+  putint(z); /*14*/
+  putint(k); /*15*/
+  return 0;
+}

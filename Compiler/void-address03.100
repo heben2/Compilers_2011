@@ -1,0 +1,15 @@
+/*void-address03*/
+/*Return statment can never be reached for function with return type void*/
+
+int main()
+{
+  test();
+  return 0;
+}
+
+void test()
+{
+  if(0)
+    return;
+}
+
